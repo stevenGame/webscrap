@@ -1,0 +1,20 @@
+{
+  "name": "web_scrap",
+  "version": "0.0.1",
+  "description": "this web scrap for test",
+  "main": "test-scrap",
+  "repository": "https://github.com/stevenGame/webscrap.git",
+  "author": "Steven Wu <stevenw@myidealprop.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.4.2",
+    "nightmare": "^2.10.0",
+    "mocha-cli": "^1.0.1"
+  },
+  "scripts": {
+    "test": "mocha test/*.js",
+    "run": "mocha test-scrap.js"
+  }
+}
